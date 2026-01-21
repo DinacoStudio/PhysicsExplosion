@@ -10,7 +10,7 @@
 @rem Unless required by applicable law or agreed to in writing, software
 @rem distributed under the License is distributed on an "AS IS" BASIS,
 @rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-@rem See the License for the specific language governing p ermissions and
+@rem See the License for the specific language governing permissions and
 @rem limitations under the License.
 @rem
 @rem SPDX-License-Identifier: Apache-2.0
@@ -92,4 +92,5 @@ exit /b %EXIT_CODE%
 if "%OS%"=="Windows_NT" endlocal
 
 :omega
+
 
