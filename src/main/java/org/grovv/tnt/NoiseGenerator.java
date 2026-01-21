@@ -17,7 +17,7 @@ public class NoiseGenerator {
 		this.seed = new Random().nextGaussian() * 255;
 		init();
 	}
-	// FUCKING PERLIN SHIT
+
 	private void init() {
 		this.p = new int[512];
 		this.permutation = new int[] { 151, 160, 137, 91, 90, 15, 131, 13, 201,
@@ -155,5 +155,4 @@ public class NoiseGenerator {
 		v = h < 4 ? y : h == 12 || h == 14 ? x : z;
 		return ((h & 1) == 0 ? u : -u) + ((h & 2) == 0 ? v : -v);
 	}
-
 }
